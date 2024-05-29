@@ -28,3 +28,40 @@ body {
   color: white;
   font-size: 17px;
 }
+
+.current-city {
+  font-size: 60px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.current-date {
+  text-align: center;
+}
+
+.temperature-icon {
+  text-align: center;
+  font-size: 100px;
+  line-height: 1px;
+}
+
+.current-temperature {
+  text-align: center;
+  line-height: 5px;
+  font-size: 20px;
+}
+
+.current-details {
+  text-align: center;
+  font-size: 12px;
+}
+
+.humidity {
+  color: #4e6ba6;
+  font-size: 14px;
+}
+
+.wind {
+  color: #4e6ba6;
+  font-size: 14px;
+}
