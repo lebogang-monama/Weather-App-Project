@@ -29,32 +29,33 @@ body {
   font-size: 17px;
 }
 
+.current-date,
+.current-details,
+.current-temperature,
+.temperature-icon,
+.current-city {
+text-align: center;
+}
 .current-city {
   font-size: 60px;
-  text-align: center;
   line-height: 10px;
 }
 
 .current-date {
-  text-align: center;
   color: grey;
 }
 
 .temperature-icon {
-  text-align: center;
   font-size: 100px;
   line-height: 1px;
 }
 
 .current-temperature {
-  text-align: center;
   line-height: 5px;
   font-size: 20px;
-  color: grey;
 }
 
 .current-details {
-  text-align: center;
   font-size: 12px;
 }
 
@@ -67,6 +68,8 @@ body {
 .forecast {
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .day-one,
@@ -76,12 +79,21 @@ body {
 .day-five,
 .day-six {
   color: grey;
-  border: 1px solid #4e6ba6;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
   width: 15%;
   border-radius: 5px;
   text-align: center;
+  position: relative;
 }
 
+.my-account,
+.github,
+.netlify,
+.current-temperature,
 .temperature{
   color: #4e6ba6;
+}
+
+.footer {
+  font-size: 10px;
 }
