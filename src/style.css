@@ -37,6 +37,7 @@ body {
 
 .current-date {
   text-align: center;
+  color: grey;
 }
 
 .temperature-icon {
@@ -49,6 +50,7 @@ body {
   text-align: center;
   line-height: 5px;
   font-size: 20px;
+  color: grey;
 }
 
 .current-details {
@@ -56,12 +58,30 @@ body {
   font-size: 12px;
 }
 
+.wind,
 .humidity {
   color: #4e6ba6;
   font-size: 14px;
 }
 
-.wind {
+.forecast {
+  list-style: none;
+  padding: 0;
+}
+
+.day-one,
+.day-two,
+.day-three,
+.day-four,
+.day-five,
+.day-six {
+  color: grey;
+  border: 1px solid #4e6ba6;
+  width: 15%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.temperature{
   color: #4e6ba6;
-  font-size: 14px;
 }
