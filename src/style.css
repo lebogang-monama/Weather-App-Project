@@ -12,7 +12,7 @@ body {
    padding: 30px;
 }
 
-.search {
+.search-input {
   padding: 12px 60px;
   border-radius: 6px;
   border: 1px solid #D0E1ED;
@@ -20,6 +20,7 @@ body {
   background-color: #D0E1ED;
   width: 70%;
 }
+
 .submit {
   padding: 12px 30px;
   border-radius: 6px;
@@ -36,6 +37,7 @@ body {
 .current-city {
 text-align: center;
 }
+
 .current-city {
   font-size: 60px;
   line-height: 10px;
