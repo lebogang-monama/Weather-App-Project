@@ -30,7 +30,7 @@ body {
   font-size: 17px;
 }
 
-.current-date,
+.time,
 .current-details,
 .current-temperature,
 .temperature-icon,
@@ -43,7 +43,8 @@ text-align: center;
   line-height: 10px;
 }
 
-.current-date {
+.time,
+.footer {
   color: grey;
 }
 
