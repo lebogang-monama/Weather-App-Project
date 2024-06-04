@@ -33,7 +33,6 @@ body {
 .time,
 .current-details,
 .current-temperature,
-.temperature-icon,
 .current-city {
 text-align: center;
 }
@@ -49,8 +48,8 @@ text-align: center;
 }
 
 .temperature-icon {
-  font-size: 100px;
-  line-height: 1px;
+  display: flex;
+  justify-content: center;
 }
 
 .current-temperature {

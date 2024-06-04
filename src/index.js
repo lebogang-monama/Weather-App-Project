@@ -7,11 +7,14 @@ let humidityElement = document.querySelector("#humidity");
 let windElement =  document.querySelector("#wind");
 let timeElement = document.querySelector("#time");
 let date = new Date(response.data.time * 1000);
+let iconElement = document.querySelector("#temperature-icon");
 
+console.log(response.data.condition);
 
 currentTemperature.innerHTML = temperature;
 farenheit.innerHTML = Math.round((temperature*9/5)+32);
 timeElement.innerHTML = formatDate(date);
+iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
 descriptionElement.innerHTML = response.data.condition.description;
 humidityElement.innerHTML = response.data.temperature.humidity;
 windElement.innerHTML = response.data.wind.speed;
